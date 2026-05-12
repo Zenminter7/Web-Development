@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+     <h2>Feedback Form</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" placeholder="Enter full name" minlength="3" required>
+        <br>
+        <label>Email Address:</label><br>
+        <input type="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+        <br><br>
+        <label>Rating:</label><br>
+
+        <input type="radio" name="rating" required>
+        Very Satisfied<br>
+
+        <input type="radio" name="rating">
+        Satisfied<br>
+
+        <input type="radio" name="rating">
+        Neutral<br>
+
+        <input type="radio" name="rating">
+        Unsatisfied<br><br>
+
+        <label>Interests:</label><br>
+
+        <input type="checkbox" name="interest">
+        Web Development<br>
+
+        <input type="checkbox" name="interest">
+        Cyber Security<br>
+
+        <input type="checkbox" name="interest">
+        AI & Machine Learning<br>
+
+        <input type="checkbox" name="interest">
+        Playing Chess <br><br>
+
+        <label>Select Country:</label><br>
+
+        <select required>
+            <option value="">Choose Country</option>
+            <option>Nepal</option>
+            <option>India</option>
+            <option>USA</option>
+        </select>
+        <br><br>
+
+        <label>Write your feedback here:</label><br>
+
+        <textarea
+            rows="5"
+            cols="30"
+            maxlength="200"
+            placeholder="Provide Feedback..."></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
