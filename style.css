@@ -1,0 +1,78 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+    margin: 0;
+    padding-top: 60px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Headings */
+h1, h2 {
+    color: blue;
+}
+
+/* ID Selector */
+#main-heading {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+.content-box {
+    background-color: lightyellow;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    position: relative;
+}
+
+.important-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: orange;
+    padding: 10px;
+}
+
+/* Sticky Heading */
+.sticky-heading {
+    position: sticky;
+    top: 80px;
+    background-color: white;
+}
+
+.highlight {
+    color: green;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+button {
+    background-color: gray;
+    color: white;
+}
